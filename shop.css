@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 200px; 
+    position: relative;
+    min-height: 160vh;
+}
+
+.thanhthongbao {
+    background-image: url('https://tse3.explicit.bing.net/th?id=OIP.gJ4nekw_TvvBY4qfIUHjUwHaEK&pid=Api&P=0&h=220');
+    background-size: cover;
+    background-position: center;
+    padding: px;
+    text-align: center;
+    color: #a30f0f;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 10000;
+    position: relative;
+}
+
+.header {
+    background-image: url('https://chiasetainguyen.com/upload-file/hinh-anh-anime-nam-buon-15e4f3e4542a72.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 35px;
+    text-align: center;
+    color: #f1e2e2;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 10000;
+    position: relative;
+ 
+}
+
+.bagach {
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    color: #e41739;
+    font-size: 3rem;
+}
+
+#typewriterContainer {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-image: url('https://img5.thuthuatphanmem.vn/uploads/2021/11/22/anh-nen-den-3d-cho-may-tinh_095029088.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.footer-column h3 {
+    color: #d9e4dc;
+    font-size: 1.2rem;
+}
+
+.footer-column p {
+    color: #d9e4dc;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.sidebar {
+    background-image: url('https://scr.vn/wp-content/uploads/2020/07/Full-HD-Black-Wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 1px; /* Dưới header */
+    left: 0;
+    width: 177px;
+    height: 100%; /* Chiều cao của sidebar bằng 100% viewport */
+    transition: 0.3s;
+    z-index: 2;
+    overflow-x: hidden;
+    padding-top:200px; 
+   
+}
+
+.sidebar p {
+    text-align: center;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #140404;
+    position: relative;
+}
+
+.sidebar ul li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content-container {
+    flex: 1;
+}
+
+.content {
+    display: none;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: calc(100% - 40px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex-grow: 1;
+}
+
+.product-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.product-info p {
+    margin: 5px 0;
+    color: #888;
+}
+
+.buy-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+
+@media (min-width: 600px) {
+    .product {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (min-width: 900px) {
+    .product {
+        width: calc(33.333% - 40px); 
+    }
+}
+
+.rut-tien-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #c90c16;
+}
+
+.rut-tien-form input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #eee5e5;
+    border-radius: 5px;
+    background-color: #e7dede;
+    color: #eee8e8;
+}
+
+.rut-tien-form button {
+    background-color: #d30f0f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+}
+
+.notification button {
+    background-color: white;
+    color: #28a745;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.notification button:hover {
+    background-color: #ddd;
+}
